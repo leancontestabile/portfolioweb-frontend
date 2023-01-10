@@ -13,6 +13,8 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProtectoComponent } from './componentes/protecto/protecto.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { InicioComponent } from './componentes/inicio/inicio.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HttpClientModule } from '@angular/common/http';
     EducacionComponent,
     SkillsComponent,
     ProtectoComponent,
-    FooterComponent
+    FooterComponent,
+    InicioComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
