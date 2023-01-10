@@ -1,0 +1,32 @@
+.row{
+    padding: 20px;
+    margin: 0px;
+}
+
+div{
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+@media (min-width: 576px){
+    #imagendeperfil{
+        width: 150px;
+        border-radius: 100%;
+        left: 1%;
+    }
+}
+
+@media (max-width: 575px){
+    #imagendeperfil{
+        width: 150px;
+        border-radius: 100%;
+        left: 1%;
+        position: relative;
+        bottom: 50%;
+    }
+}
+
+#nombre{
+    font-weight: bold;
+    margin: auto;
+}

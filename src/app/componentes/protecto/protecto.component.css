@@ -1,0 +1,10 @@
+.row{
+    padding: 30px;
+    background-color: darkslateblue;
+    width: auto;
+    margin: 0px;
+}
+.texto, .imagen{
+    display: inline-block;
+    text-align: justify;
+}
